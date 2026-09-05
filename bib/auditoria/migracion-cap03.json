@@ -1,0 +1,196 @@
+{
+ "bloques": 10,
+ "items": 49,
+ "sup_sustituidos": 28,
+ "huerfanas": [],
+ "sin_clave": [
+  {
+   "bloque": "Acerca del conflicto entre sociología y filosofía de la ciencia",
+   "n": 1,
+   "texto": "*Philip Kitcher, en *The Journal of Philosophy**, elogia el libro por su claridad, rigor y originalidad, y por ofrecer una visión más matizada y reali"
+  },
+  {
+   "bloque": "Acerca del conflicto entre sociología y filosofía de la ciencia",
+   "n": 2,
+   "texto": "*Miriam Solomon, en *Philosophy of Science**, destaca el valor del libro por su contribución al debate sobre el estatus epistémico de la sociología de"
+  },
+  {
+   "bloque": "Acerca del conflicto entre sociología y filosofía de la ciencia",
+   "n": 3,
+   "texto": "*James R. Brown, en *The British Journal for the Philosophy of Science**, reconoce el mérito del libro por su análisis detallado y perspicaz de las di"
+  },
+  {
+   "bloque": "Mostrar referencias",
+   "n": 2,
+   "texto": "Parra, S. (2022). El 99,9 % de los estudios científicos lo confirma: el cambio climático está causado por el ser humano. National geographic, 2/11/202"
+  },
+  {
+   "bloque": "Evidencia y datos de impacto del cambio climático vs escepticismo",
+   "n": 1,
+   "texto": "**Heatwaves and Wildfires:**"
+  },
+  {
+   "bloque": "Evidencia y datos de impacto del cambio climático vs escepticismo",
+   "n": 2,
+   "texto": "**Flooding Events:**"
+  },
+  {
+   "bloque": "Evidencia y datos de impacto del cambio climático vs escepticismo",
+   "n": 3,
+   "texto": "**Tropical Cyclones:**"
+  },
+  {
+   "bloque": "Evidencia y datos de impacto del cambio climático vs escepticismo",
+   "n": 4,
+   "texto": "**Droughts:**"
+  },
+  {
+   "bloque": "Evidencia y datos de impacto del cambio climático vs escepticismo",
+   "n": 5,
+   "texto": "**Arctic sea ice loss:**"
+  },
+  {
+   "bloque": "Evidencia y datos de impacto del cambio climático vs escepticismo",
+   "n": 6,
+   "texto": "**Sea Level Rise:**"
+  },
+  {
+   "bloque": "Mostrar referencias",
+   "n": 4,
+   "texto": "Mitchell, Sandra (2009). Unsimple Truths: Science, Complexity, and Policy. Chicago, IL: University of Chicago Press. Chap. 1, 6."
+  }
+ ],
+ "sin_uso": [
+  {
+   "bloque": "Acerca del conflicto entre sociología y filosofía de la ciencia",
+   "n": 1,
+   "texto": "*Philip Kitcher, en *The Journal of Philosophy**, elogia el libro por su claridad, rigor y originalidad, y por"
+  },
+  {
+   "bloque": "Acerca del conflicto entre sociología y filosofía de la ciencia",
+   "n": 2,
+   "texto": "*Miriam Solomon, en *Philosophy of Science**, destaca el valor del libro por su contribución al debate sobre e"
+  },
+  {
+   "bloque": "Acerca del conflicto entre sociología y filosofía de la ciencia",
+   "n": 3,
+   "texto": "*James R. Brown, en *The British Journal for the Philosophy of Science**, reconoce el mérito del libro por su "
+  },
+  {
+   "bloque": "Mostrar referencias",
+   "n": 6,
+   "texto": "Farrell, J., McConnell, K., & Brulle, R. (2019). Evidence-based strategies to combat scientific misinformation"
+  },
+  {
+   "bloque": "Mostrar referencias",
+   "n": 1,
+   "texto": "Adger, W. N., et al. (2013). Cultural dimensions of climate change impacts and adaptation. Nature Climate Chan"
+  },
+  {
+   "bloque": "Mostrar referencias",
+   "n": 2,
+   "texto": "Dessler, A. E., & Parson, E. A. (2019). The science and politics of global climate change: A guide to the deba"
+  },
+  {
+   "bloque": "Mostrar referencias",
+   "n": 3,
+   "texto": "Eakin, H., & Luers, A. L. (2006). Assessing the vulnerability of social-environmental systems. Annual Review o"
+  },
+  {
+   "bloque": "Mostrar referencias",
+   "n": 4,
+   "texto": "Edwards, P. N. (2010). A vast machine: Computer models, climate data, and the politics of global warming. Camb"
+  },
+  {
+   "bloque": "Mostrar referencias",
+   "n": 5,
+   "texto": "Granados Mateo, J. L. (2019). Ciencia posnormal, o cómo se estudia el clima en tiempos de incertidumbre. The C"
+  },
+  {
+   "bloque": "Mostrar referencias",
+   "n": 6,
+   "texto": "Hulme, M. (2009). Why we disagree about climate change: Understanding controversy, inaction and opportunity. C"
+  },
+  {
+   "bloque": "Mostrar referencias",
+   "n": 7,
+   "texto": "Hulme, M. (2011). Meet the humanities. Nature Climate Change, 1(4), 177-179."
+  },
+  {
+   "bloque": "Mostrar referencias",
+   "n": 8,
+   "texto": "Jasanoff, S. (2010). A new climate for society. Theory, Culture & Society, 27(2-3), 233-253."
+  },
+  {
+   "bloque": "Evidencia y datos de impacto del cambio climático vs escepticismo",
+   "n": 1,
+   "texto": "**Heatwaves and Wildfires:**"
+  },
+  {
+   "bloque": "Evidencia y datos de impacto del cambio climático vs escepticismo",
+   "n": 2,
+   "texto": "**Flooding Events:**"
+  },
+  {
+   "bloque": "Evidencia y datos de impacto del cambio climático vs escepticismo",
+   "n": 3,
+   "texto": "**Tropical Cyclones:**"
+  },
+  {
+   "bloque": "Evidencia y datos de impacto del cambio climático vs escepticismo",
+   "n": 4,
+   "texto": "**Droughts:**"
+  },
+  {
+   "bloque": "Evidencia y datos de impacto del cambio climático vs escepticismo",
+   "n": 5,
+   "texto": "**Arctic sea ice loss:**"
+  },
+  {
+   "bloque": "Evidencia y datos de impacto del cambio climático vs escepticismo",
+   "n": 6,
+   "texto": "**Sea Level Rise:**"
+  },
+  {
+   "bloque": "Estudio de caso: Confirmación de la teoría neuronal de Ramón y Cajal",
+   "n": 1,
+   "texto": "De Castro, F. (2019). Cajal and the Spanish Neurological School: Neuroscience Would Have Been a Different Stor"
+  },
+  {
+   "bloque": "Estudio de caso: Confirmación de la teoría neuronal de Ramón y Cajal",
+   "n": 2,
+   "texto": "DeFelipe, J. (2006). Brain plasticity and mental processes: Cajal again. Nature Reviews. Neuroscience, 7(10), "
+  },
+  {
+   "bloque": "Estudio de caso: Confirmación de la teoría neuronal de Ramón y Cajal",
+   "n": 3,
+   "texto": "Glickstein, M. (2011). Golgi: a life in science. Brain, 135(1), 301-303. https://doi.org/10.1093/brain/awr207."
+  },
+  {
+   "bloque": "Estudio de caso: Confirmación de la teoría neuronal de Ramón y Cajal",
+   "n": 4,
+   "texto": "Glickstein, M. (2006). “Golgi and Cajal: The Neuron Doctrine and the 100th Anniversary of the 1906 Nobel Prize"
+  },
+  {
+   "bloque": "Estudio de caso: Confirmación de la teoría neuronal de Ramón y Cajal",
+   "n": 5,
+   "texto": "Hortsch, M. (2009). A Short History of the Synapse – Golgi Versus Ramón y Cajal. En Springer eBooks (pp. 1-9)."
+  },
+  {
+   "bloque": "Estudio de caso: Confirmación de la teoría neuronal de Ramón y Cajal",
+   "n": 6,
+   "texto": "Rozo, J. A., Martínez-Gallego, I., & Rodríguez-Moreno, A. (2024). Cajal, the neuronal theory and the idea of b"
+  },
+  {
+   "bloque": "Estudio de caso: Confirmación de la teoría neuronal de Ramón y Cajal",
+   "n": 7,
+   "texto": "The Nobel Prize in Physiology or Medicine 1906. NobelPrize.org. https://www.nobelprize.org/prizes/medicine/190"
+  },
+  {
+   "bloque": "Estudio de caso: Confirmación de la teoría neuronal de Ramón y Cajal",
+   "n": 8,
+   "texto": "[Nobel Controversies: Golgi vs Ramon y Cajal](https://www.youtube.com/embed/yw3FDJHHD1I)"
+  }
+ ],
+ "sup_restantes": 0
+}

@@ -1,0 +1,11 @@
+# Netlify — publica la salida ya renderizada. La imagen de compilación no trae
+# Quarto, así que no hay orden de construcción: se renderiza en local y se
+# versiona _salida/web.
+[build]
+  publish = "_salida/web"
+  command = ""
+
+[[headers]]
+  for = "/site_libs/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
