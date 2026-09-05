@@ -1,19 +1,20 @@
-<p align="center">
-  <img src="imagenes/portada-web.webp" alt="Portada de «Filosofía y conocimiento», versión 6" width="330">
-</p>
-
 # Filosofía y conocimiento — v.6
-
-**Monografía técnica 26311M9** · 4.º del Grado en Filosofía, Universidad de Granada
-Miguel Moreno Muñoz · Departamento de Filosofía II
+### Monografía técnica 26311M9
+Miguel Moreno Muñoz · Departamento de Filosofía II — Universidad de Granada
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17284805.svg)](https://doi.org/10.5281/zenodo.17284805)
 [![Licencia: CC BY-NC-SA 4.0](https://img.shields.io/badge/licencia-CC%20BY--NC--SA%204.0-informational)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)
 
-Epistemología aplicada al análisis de casos. Seis capítulos —génesis del
+Texto sobre epistemología aplicada al análisis de casos. Seis capítulos —génesis del
 conocimiento, instrumentalización del debate público, consenso y escepticismo
 climático, intereses e integridad de la investigación, comunicación y acceso,
 sociedad del conocimiento— con estudios de caso documentados, glosario activo e
 índices navegables. Cubre los temas 1 a 6 de la guía docente.
+
+<p align="center">
+  <img src="imagenes/portada-web.webp" alt="Portada de «Filosofía y conocimiento», versión 6" width="330">
+</p>
+
+---
 
 ## Leer
 
@@ -26,12 +27,12 @@ sociedad del conocimiento— con estudios de caso documentados, glosario activo 
 | Cloudflare Pages | <https://fc2026.pages.dev/> |
 | Fichero único (Zenodo) | <https://doi.org/10.5281/zenodo.17284805> |
 
-Los cuatro últimos son espejos del mismo contenido. Las cuatro publican el
-directorio `_salida/web` ya renderizado, sin orden de construcción: ninguna de
-las imágenes de compilación por defecto trae Quarto. En GitHub Pages hace falta
-además un fichero `.nojekyll` en la raíz publicada — sin él, Jekyll descarta
-`site_libs/` por empezar por guion bajo y el libro se sirve sin estilos ni
-buscador.
+Netlify es la edición canónica; GitHub Pages, Vercel y Cloudflare Workers son
+espejos del mismo contenido. Las cuatro publican el directorio `_salida/web` ya
+renderizado, sin orden de construcción: ninguna de las imágenes de compilación
+por defecto trae Quarto. En GitHub Pages hace falta además un fichero
+`.nojekyll` en la raíz publicada — sin él, Jekyll descarta `site_libs/` por
+empezar por guion bajo y el libro se sirve sin estilos ni buscador.
 
 ## Qué cambia en la versión 6
 
