@@ -12,7 +12,7 @@ sociedad del conocimiento— con estudios de caso documentados, glosario activo 
 índices navegables. Cubre los temas 1 a 6 de la guía docente.
 
 <p align="center">
-  <img src="imagenes/portada-web.webp" alt="Portada de «Filosofía y conocimiento», versión 6" width="430">
+  <img src="imagenes/portada-oscura-web" alt="Portada de «Filosofía y conocimiento», versión 6" width="430">
 </p>
 
 ---
