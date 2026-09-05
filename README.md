@@ -30,10 +30,7 @@ sociedad del conocimiento— con estudios de caso documentados, glosario activo 
 
 Netlify es la edición canónica; GitHub Pages, Vercel y Cloudflare Workers son
 espejos del mismo contenido. Las cuatro publican el directorio `_salida/web` ya
-renderizado, sin orden de construcción: ninguna de las imágenes de compilación
-por defecto trae Quarto. En GitHub Pages hace falta además un fichero
-`.nojekyll` en la raíz publicada — sin él, Jekyll descarta `site_libs/` por
-empezar por guion bajo y el libro se sirve sin estilos ni buscador.
+renderizado.
 
 ## Qué cambia en la versión 6
 
