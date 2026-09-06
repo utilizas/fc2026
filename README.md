@@ -23,7 +23,7 @@ sociedad del conocimiento— con estudios de caso documentados, glosario activo 
 |---|---|
 | Netlify | <https://fc2026.netlify.app/> |
 | Vercel | <https://fc2026-mu.vercel.app/> |
-| Cloudflare Pages | <https://fc2026.pages.dev/> |
+| Cloudflare Pages | <https://fc2026.utilizas.workers.dev> |
 | GitHub Pages | <https://utilizas.github.io/fc2026/> |
 | Fichero único (Zenodo) | <https://doi.org/10.5281/zenodo.17284805> |
 | Histórico de versiones | <https://doi.org/10.5281/zenodo.10246923> |
