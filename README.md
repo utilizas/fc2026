@@ -21,7 +21,7 @@ sociedad del conocimiento— con estudios de caso documentados, glosario activo 
 
 | | |
 |---|---|
-| Netlify | <https://fc2026.netlify.app/> |
+| Netlify | <https://fcon2026.netlify.app/> |
 | Vercel | <https://fc2026-mu.vercel.app/> |
 | Cloudflare Pages | <https://fc2026.utilizas.workers.dev> |
 | GitHub Pages | <https://utilizas.github.io/fc2026/> |
