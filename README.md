@@ -104,6 +104,19 @@ de `plantillas/head-extra.html`.
 > Moreno Muñoz, M. (2026). *Filosofía y conocimiento* (versión 6).
 > Zenodo — CERN Research Repository. https://doi.org/10.5281/zenodo.17284805
 
+```bibtex
+@misc{moreno_muñoz_2026_filosofia,
+  author       = {Moreno Mu{\~n}oz, Miguel},
+  title        = {{Filosof{\'\i}a y conocimiento} (versi{\'o}n 6)},
+  year         = {2026},
+  howpublished = {Zenodo -- CERN Research Repository},
+  version      = {6},
+  doi          = {10.5281/zenodo.17284805},
+  url          = {https://doi.org/10.5281/zenodo.17284805},
+  note         = {Monograf{\'\i}a t{\'e}cnica 26311M9}
+}
+```
+
 ## Licencia
 
 Texto e imágenes bajo [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es).
