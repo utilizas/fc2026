@@ -4,11 +4,11 @@ Departamento de Filosofía II — Universidad de Granada
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17284805.svg)](https://doi.org/10.5281/zenodo.17284805)  
 [![Licencia: CC BY-NC-SA 4.0](https://img.shields.io/badge/licencia-CC%20BY--NC--SA%204.0-informational)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)
 
-Texto sobre epistemología aplicada con análisis de casos. Seis capítulos —génesis del
-conocimiento, instrumentalización del debate público, consenso y escepticismo
-climático, intereses e integridad de la investigación, comunicación y acceso,
-sociedad del conocimiento— con estudios de caso documentados, glosario activo e
-índices navegables. Cubre los temas 1 a 6 de la guía docente.
+Texto sobre epistemología aplicada con análisis de casos.   
+Seis capítulos —génesis del conocimiento, instrumentalización del debate público,  
+consenso y escepticismo climático, intereses e integridad de la investigación,  
+comunicación y acceso, sociedad del conocimiento— con estudios de caso documentados,  
+glosario activo e índices navegables. Cubre los temas 1 a 6 de la guía docente.
 
 <p align="left">
   <img src="imagenes/portada-web.webp" alt="Portada de «Filosofía y conocimiento», versión 6" width="430">
