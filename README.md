@@ -1,5 +1,4 @@
-# Filosofía y conocimiento — v.6
-### Monografía técnica 26311M9
+# Filosofía y conocimiento · Monografía técnica 26311M9 v. 6
 Miguel Moreno Muñoz  
 Departamento de Filosofía II — Universidad de Granada  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17284805.svg)](https://doi.org/10.5281/zenodo.17284805)  
