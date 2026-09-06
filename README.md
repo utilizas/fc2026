@@ -11,8 +11,8 @@ climático, intereses e integridad de la investigación, comunicación y acceso,
 sociedad del conocimiento— con estudios de caso documentados, glosario activo e
 índices navegables. Cubre los temas 1 a 6 de la guía docente.
 
-<p align="center">
-  <img src="imagenes/portada-oscura-web.webp" alt="Portada de «Filosofía y conocimiento», versión 6" width="430">
+<p align="left">
+  <img src="imagenes/portada-web.webp" alt="Portada de «Filosofía y conocimiento», versión 6" width="430">
 </p>
 
 ---
@@ -21,22 +21,22 @@ sociedad del conocimiento— con estudios de caso documentados, glosario activo 
 
 | | |
 |---|---|
-| **Edición de referencia** | <https://www.ugr.es/~mm3/fc26/> |
-| GitHub Pages | <https://utilizas.github.io/fc2026/> |
 | Netlify | <https://fc2026.netlify.app/> |
 | Vercel | <https://fc2026.vercel.app/> |
 | Cloudflare Pages | <https://fc2026.pages.dev/> |
+| GitHub Pages | <https://utilizas.github.io/fc2026/> |
 | Fichero único (Zenodo) | <https://doi.org/10.5281/zenodo.17284805> |
+| Histórico de versiones | <https://doi.org/10.5281/zenodo.10246923> |
 
 Netlify es la edición canónica; GitHub Pages, Vercel y Cloudflare Workers son
-espejos del mismo contenido. Las cuatro publican el directorio `_salida/web` ya
+mirrors que despliegan el mismo contenido para asegurar disponibilidad. Las cuatro publican el directorio `_salida/web` ya
 renderizado.
 
 ## Qué cambia en la versión 6
 
 La versión 5 era un fichero único de unas 110.000 palabras, resultado de
-revisiones acumuladas desde 2024. Esta no añade una capa más: reorganiza lo
-acumulado, subsana lagunas y actualiza los casos ligados a debates en curso.
+revisiones acumuladas desde 2024. Esta sexta versión no añade una capa más, sino que reorganiza lo
+acumulado, subsana lagunas, actualiza los casos ligados a debates en curso y añade índices y glosario activo.
 
 - **Bibliografía gestionada y verificada.** 643 entradas en un único
   `referencias.bib`, cada una con su estado de comprobación declarado en un
