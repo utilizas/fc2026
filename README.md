@@ -2,7 +2,7 @@
 ## Monografía técnica 26311M9 v. 6  
 Miguel Moreno Muñoz  
 Departamento de Filosofía II — Universidad de Granada  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17284805.svg)](https://doi.org/10.5281/zenodo.17284805)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22496144.svg)](https://doi.org/10.5281/zenodo.22496144)  
 [![Licencia: CC BY-NC-SA 4.0](https://img.shields.io/badge/licencia-CC%20BY--NC--SA%204.0-informational)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)
 
 Texto sobre epistemología aplicada con análisis de casos. Seis capítulos   
@@ -25,7 +25,7 @@ glosario activo e índices navegables. Cubre los temas 1 a 6 de la guía docente
 | Vercel | <https://fc2026-mu.vercel.app/> |
 | Cloudflare Pages | <https://fc2026.utilizas.workers.dev> |
 | GitHub Pages | <https://utilizas.github.io/fc2026/> |
-| Fichero único (Zenodo) | <https://doi.org/10.5281/zenodo.17284805> |
+| Fichero único (Zenodo) | <https://doi.org/10.5281/zenodo.22496144> |
 | Histórico de versiones | <https://doi.org/10.5281/zenodo.10246923> |
 
 Netlify es la edición canónica; GitHub Pages, Vercel y Cloudflare Workers son
