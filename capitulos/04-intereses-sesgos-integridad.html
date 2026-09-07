@@ -103,7 +103,7 @@ div.csl-indent {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap">
 <meta name="description" content="Monografía de epistemología aplicada orientada al análisis de casos.">
-<meta name="citation_doi" content="10.5281/zenodo.17284805">
+<meta name="citation_doi" content="10.5281/zenodo.22496144">
 <!-- Boton «Copiar» en los bloques de referencias. Se inyecta desde aqui para no tocar ningun .qmd: alcanza los dos perfiles y todos los capitulos. Va en una sola linea a proposito, por la regla de arriba. Estilo: .fc-copiar en _componentes.scss. -->
 <script>document.addEventListener("DOMContentLoaded", function () { var R = /referencia|enlace|lectura|fuente/i; function texto(cont) { var clon = cont.cloneNode(true); clon.querySelectorAll(".fc-copiar").forEach(function (x) { x.remove(); }); var li = clon.querySelectorAll("li"); if (li.length) { return Array.prototype.map.call(li, function (x) { return x.textContent.replace(/\s+/g, " ").trim(); }).join("\n"); } return (clon.innerText || clon.textContent).trim(); } function respaldo(txt, ok) { var a = document.createElement("textarea"); a.value = txt; a.setAttribute("readonly", ""); a.style.position = "fixed"; a.style.top = "-1000px"; a.style.opacity = "0"; document.body.appendChild(a); a.select(); try { document.execCommand("copy"); ok(); } catch (e) { } a.remove(); } function copiar(txt, boton) { var ok = function () { boton.textContent = "Copiado"; setTimeout(function () { boton.textContent = "Copiar"; }, 1600); }; if (navigator.clipboard && window.isSecureContext) { navigator.clipboard.writeText(txt).then(ok, function () { respaldo(txt, ok); }); } else { respaldo(txt, ok); } } function poner(cont) { if (!cont || cont.querySelector(":scope > .fc-copiar")) { return; } var b = document.createElement("button"); b.type = "button"; b.className = "fc-copiar"; b.textContent = "Copiar"; b.setAttribute("aria-label", "Copiar las referencias de este apartado"); b.addEventListener("click", function (e) { e.stopPropagation(); copiar(texto(cont), b); }); cont.prepend(b); } document.querySelectorAll(".bloque-referencias .contenido").forEach(function (c) { poner(c); }); document.querySelectorAll(".callout").forEach(function (c) { var t = c.querySelector(".callout-title-container"); if (!t || !R.test(t.textContent)) { return; } poner(c.querySelector(".callout-body-container") || c.querySelector(".callout-body")); }); });</script>
 <!-- Controles de lectura: tamano de texto y tema sepia. Se aplica el estado guardado ANTES de pintar, para que no haya parpadeo. Una sola linea, por la regla de arriba. -->
@@ -506,7 +506,7 @@ div.csl-indent {
   </ul></li>
   <li><a href="#conformidad-bajo-coacción-y-dinámicas-de-cancelación" id="toc-conformidad-bajo-coacción-y-dinámicas-de-cancelación" class="nav-link" data-scroll-target="#conformidad-bajo-coacción-y-dinámicas-de-cancelación"><span class="header-section-number">4.9</span> Conformidad bajo coacción y dinámicas de cancelación</a>
   <ul class="collapse">
-  <li><a href="#por-qué-esto-pertenece-a-un-libro-de-epistemología" id="toc-por-qué-esto-pertenece-a-un-libro-de-epistemología" class="nav-link" data-scroll-target="#por-qué-esto-pertenece-a-un-libro-de-epistemología"><span class="header-section-number">4.9.1</span> Por qué esto pertenece a un libro de epistemología</a></li>
+  <li><a href="#por-qué-tratar-el-problema-en-un-texto-de-epistemología-aplicada" id="toc-por-qué-tratar-el-problema-en-un-texto-de-epistemología-aplicada" class="nav-link" data-scroll-target="#por-qué-tratar-el-problema-en-un-texto-de-epistemología-aplicada"><span class="header-section-number">4.9.1</span> Por qué tratar el problema en un texto de epistemología aplicada</a></li>
   <li><a href="#el-mecanismo-cuando-lo-que-se-dice-deja-de-coincidir-con-lo-que-se-piensa" id="toc-el-mecanismo-cuando-lo-que-se-dice-deja-de-coincidir-con-lo-que-se-piensa" class="nav-link" data-scroll-target="#el-mecanismo-cuando-lo-que-se-dice-deja-de-coincidir-con-lo-que-se-piensa"><span class="header-section-number">4.9.2</span> El mecanismo: cuando lo que se dice deja de coincidir con lo que se piensa</a></li>
   <li><a href="#el-criterio-es-el-mismo-que-el-del-capítulo-3-y-se-aplica-igual-en-las-dos-direcciones" id="toc-el-criterio-es-el-mismo-que-el-del-capítulo-3-y-se-aplica-igual-en-las-dos-direcciones" class="nav-link" data-scroll-target="#el-criterio-es-el-mismo-que-el-del-capítulo-3-y-se-aplica-igual-en-las-dos-direcciones"><span class="header-section-number">4.9.3</span> El criterio es el mismo que el del capítulo 3, y se aplica igual en las dos direcciones</a></li>
   <li><a href="#vectores-documentados-en-direcciones-distintas" id="toc-vectores-documentados-en-direcciones-distintas" class="nav-link" data-scroll-target="#vectores-documentados-en-direcciones-distintas"><span class="header-section-number">4.9.4</span> Vectores documentados, en direcciones distintas</a></li>
@@ -576,41 +576,41 @@ Tabla&nbsp;4.1: Cuatro fuentes de financiación de la investigación, con su ló
 <colgroup>
 <col style="width: 25%">
 <col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
+<col style="width: 18%">
+<col style="width: 31%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fuente</th>
-<th>Qué selecciona</th>
-<th>Horizonte</th>
-<th>Riesgo característico</th>
+<th style="text-align: left;">Fuente</th>
+<th style="text-align: left;">Qué selecciona</th>
+<th style="text-align: left;">Horizonte</th>
+<th style="text-align: left;">Riesgo característico</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Pública competitiva</strong> (convocatorias por proyecto)</td>
-<td>Propuestas evaluables y con resultado previsible en el plazo</td>
-<td>3-4 años</td>
-<td>Prima lo seguro; penaliza lo exploratorio y lo que no cabe en un proyecto</td>
+<td style="text-align: left;"><strong>Pública competitiva</strong> (convocatorias por proyecto)</td>
+<td style="text-align: left;">Propuestas evaluables y con resultado previsible en el plazo</td>
+<td style="text-align: left;">3-4 años</td>
+<td style="text-align: left;">Prima lo seguro; penaliza lo exploratorio y lo que no cabe en un proyecto</td>
 </tr>
 <tr class="even">
-<td><strong>Pública estructural</strong> (plantilla, centros, grandes instalaciones)</td>
-<td>Continuidad y capacidad instalada</td>
-<td>Décadas</td>
-<td>Inercia; difícil de reorientar</td>
+<td style="text-align: left;"><strong>Pública estructural</strong> (plantilla, centros, grandes instalaciones)</td>
+<td style="text-align: left;">Continuidad y capacidad instalada</td>
+<td style="text-align: left;">Décadas</td>
+<td style="text-align: left;">Inercia; difícil de reorientar</td>
 </tr>
 <tr class="odd">
-<td><strong>Empresarial</strong></td>
-<td>Lo que tiene retorno apropiable</td>
-<td>Corto</td>
-<td>Sesgo de patrocinio (§4.7); lo no patentable ni rentable queda fuera</td>
+<td style="text-align: left;"><strong>Empresarial</strong></td>
+<td style="text-align: left;">Lo que tiene retorno apropiable</td>
+<td style="text-align: left;">Corto</td>
+<td style="text-align: left;">Sesgo de patrocinio (§4.7); lo no patentable ni rentable queda fuera</td>
 </tr>
 <tr class="even">
-<td><strong>Filantrópica y fundacional</strong></td>
-<td>La agenda de quien dona</td>
-<td>Variable</td>
-<td>Concentra recursos en pocos problemas, sin rendición de cuentas pública</td>
+<td style="text-align: left;"><strong>Filantrópica y fundacional</strong></td>
+<td style="text-align: left;">La agenda de quien dona</td>
+<td style="text-align: left;">Variable</td>
+<td style="text-align: left;">Concentra recursos en pocos problemas, sin rendición de cuentas pública</td>
 </tr>
 </tbody>
 </table>
@@ -967,7 +967,7 @@ Boletines por suscripción y redes: el catálogo cambia cada temporada, y por es
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Lecturas del caso
+<span class="screen-reader-only">Nota</span>Fuentes para el caso
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -1009,7 +1009,7 @@ Este caso proporciona una base para discutir las limitaciones del sistema de ran
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Lecturas del caso
+<span class="screen-reader-only">Nota</span>Fuentes para el caso
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -1061,57 +1061,57 @@ Este caso proporciona una base para discutir las limitaciones del sistema de ran
 <div id="tbl-04-retractaciones" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-04-retractaciones-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabla&nbsp;4.2: Retractaciones: cifras disponibles a agosto de 2026 y procedencia de cada una.
+Tabla&nbsp;4.2: Retractaciones: cifras disponibles hasta agosto de 2026 y procedencia de cada una.
 </figcaption>
 <div aria-describedby="tbl-04-retractaciones-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 30%">
+<col style="width: 46%">
+<col style="width: 23%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Dato</th>
-<th>Cifra</th>
-<th>Fuente</th>
+<th style="text-align: left;">Dato</th>
+<th style="text-align: left;">Cifra</th>
+<th style="text-align: left;">Fuente</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Retractaciones en 2023</td>
-<td><strong>más de 10.000</strong>, récord histórico</td>
-<td><span class="citation" data-cites="vannoorden2023more">(<a href="../bibliografia.html#ref-vannoorden2023more" role="doc-biblioref">2023</a>)</span></td>
+<td style="text-align: left;">Retractaciones en 2023</td>
+<td style="text-align: left;"><strong>más de 10.000</strong>, récord histórico</td>
+<td style="text-align: left;"><span class="citation" data-cites="vannoorden2023more">(<a href="../bibliografia.html#ref-vannoorden2023more" role="doc-biblioref">2023</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Qué produjo el pico</td>
-<td>El cierre de más de <strong>8.000 artículos de Hindawi</strong> (Wiley), por fábricas de artículos</td>
-<td>íd.</td>
+<td style="text-align: left;">Qué produjo el pico</td>
+<td style="text-align: left;">El cierre de más de <strong>8.000 artículos de Hindawi</strong> (Wiley), por fábricas de artículos</td>
+<td style="text-align: left;">íd.</td>
 </tr>
 <tr class="odd">
-<td>Base de Retraction Watch a finales de 2024</td>
-<td>casi <strong>55.000</strong> registros, ya integrados en Crossref</td>
-<td>Retraction Watch</td>
+<td style="text-align: left;">Base de Retraction Watch a finales de 2024</td>
+<td style="text-align: left;">casi <strong>55.000</strong> registros, ya integrados en Crossref</td>
+<td style="text-align: left;">Retraction Watch</td>
 </tr>
 <tr class="even">
-<td>Springer Nature en 2024</td>
-<td><strong>2.923</strong> retractados sobre más de 482.000 publicados: <strong>0,61 %</strong></td>
-<td>íd.</td>
+<td style="text-align: left;">Springer Nature en 2024</td>
+<td style="text-align: left;"><strong>2.923</strong> retractados sobre más de 482.000 publicados: <strong>0,61 %</strong></td>
+<td style="text-align: left;">íd.</td>
 </tr>
 <tr class="odd">
-<td>Artículos de fábrica retractados hasta 2024</td>
-<td><strong>10.409</strong>, con pico en 2023 y descenso en 2024</td>
-<td><span class="citation" data-cites="cheng2026tracking">(<a href="../bibliografia.html#ref-cheng2026tracking" role="doc-biblioref">2026</a>)</span></td>
+<td style="text-align: left;">Artículos de fábrica retractados hasta 2024</td>
+<td style="text-align: left;"><strong>10.409</strong>, con pico en 2023 y descenso en 2024</td>
+<td style="text-align: left;"><span class="citation" data-cites="cheng2026tracking">(<a href="../bibliografia.html#ref-cheng2026tracking" role="doc-biblioref">2026</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Incidencia global en 2021</td>
-<td><strong>0,12 %</strong> de los trabajos publicados</td>
-<td><span class="citation" data-cites="venturini2026retraction">(<a href="../bibliografia.html#ref-venturini2026retraction" role="doc-biblioref">2026</a>)</span></td>
+<td style="text-align: left;">Incidencia global en 2021</td>
+<td style="text-align: left;"><strong>0,12 %</strong> de los trabajos publicados</td>
+<td style="text-align: left;"><span class="citation" data-cites="venturini2026retraction">(<a href="../bibliografia.html#ref-venturini2026retraction" role="doc-biblioref">2026</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Ritmo de crecimiento</td>
-<td>La incidencia <strong>se duplica cada 5,6 años</strong> (IC 95 %: 5,1-6,0)</td>
-<td>íd.</td>
+<td style="text-align: left;">Ritmo de crecimiento</td>
+<td style="text-align: left;">La incidencia <strong>se duplica cada 5,6 años</strong> (IC 95 %: 5,1-6,0)</td>
+<td style="text-align: left;">íd.</td>
 </tr>
 </tbody>
 </table>
@@ -1207,7 +1207,7 @@ Tabla&nbsp;4.2: Retractaciones: cifras disponibles a agosto de 2026 y procedenci
 </div>
 <div class="estudio-caso">
 <p><span id="la-crisis-del-ebola-en-africa-occidental-y-la-apropiacion-de-resultados-de-investigacion"></span></p>
-<p><strong>I. La crisis del ébola en África Occidental y la apropiación de resultados de investigación</strong></p>
+<p><strong>I. Crisis del ébola en África Occidental y acceso restringido a resultados de investigación mediante <em>paywalls</em></strong></p>
 <p><strong>Contexto</strong></p>
 <p>Durante la crisis del ébola que afectó a África Occidental en 2014-2015, la rápida distribución y accesibilidad a investigaciones científicas fue crucial para enfrentar la epidemia. Los estudios sobre la epidemiología, transmisión y tratamiento del ébola estaban, en su mayoría, detrás de <em>paywalls</em> en revistas científicas comerciales.</p>
 <p>Sin embargo, la urgencia de la situación llevó a muchos editores y revistas a liberar temporalmente el acceso a artículos relacionados con el ébola. Aunque fue un gesto importante, puso de manifiesto las limitaciones de los modelos comerciales de acceso a la investigación y resaltó el valor del acceso abierto para una respuesta rápida en situaciones de emergencia.</p>
@@ -1221,7 +1221,7 @@ Tabla&nbsp;4.2: Retractaciones: cifras disponibles a agosto de 2026 y procedenci
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Lecturas del caso
+<span class="screen-reader-only">Nota</span>Fuentes para el caso
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -1253,7 +1253,7 @@ Tabla&nbsp;4.2: Retractaciones: cifras disponibles a agosto de 2026 y procedenci
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Lecturas del caso
+<span class="screen-reader-only">Nota</span>Fuentes para el caso
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -1288,7 +1288,7 @@ Tabla&nbsp;4.2: Retractaciones: cifras disponibles a agosto de 2026 y procedenci
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Lecturas del caso
+<span class="screen-reader-only">Nota</span>Fuentes para el caso
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -1312,42 +1312,42 @@ Tabla&nbsp;4.2: Retractaciones: cifras disponibles a agosto de 2026 y procedenci
 <div id="tbl-tres-exigencias" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tres-exigencias-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabla&nbsp;4.3: <strong>Tres exigencias que suelen confundirse.</strong> Fallan por motivos distintos, las vigilan órganos distintos y se corrigen con instrumentos distintos: por eso el visto bueno de una no dice nada sobre las otras dos.
+Tabla&nbsp;4.3: <strong>Tres exigencias que suelen confundirse.</strong> Fallan por motivos distintos, las vigilan órganos distintos y se corrigen con instrumentos distintos; el visto bueno para una no dice nada sobre las demás.
 </figcaption>
 <div aria-describedby="tbl-tres-exigencias-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
+<col style="width: 18%">
 <col style="width: 25%">
 <col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
+<col style="width: 31%">
 </colgroup>
 <thead>
 <tr class="header">
-<th></th>
-<th>Pregunta que responde</th>
-<th>Quién la vigila</th>
-<th>Cómo se ve el fallo</th>
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Pregunta que responde</th>
+<th style="text-align: left;">Quién la vigila</th>
+<th style="text-align: left;">Cómo se ve el fallo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Ética de la investigación</strong></td>
-<td>¿A quién puede afectar esto y con qué salvaguardas?</td>
-<td>Comités de ética, antes de empezar</td>
-<td>Consentimiento inexistente, riesgo no declarado, datos personales sin protección</td>
+<td style="text-align: left;"><strong>Ética de la investigación</strong></td>
+<td style="text-align: left;">¿A quién puede afectar esto y con qué salvaguardas?</td>
+<td style="text-align: left;">Comités de ética, antes de empezar</td>
+<td style="text-align: left;">Consentimiento inexistente, riesgo no declarado, datos personales sin protección</td>
 </tr>
 <tr class="even">
-<td><strong>Integridad científica</strong></td>
-<td>¿Es fiable lo que se afirma?</td>
-<td>La propia comunidad, durante y después</td>
-<td>Datos fabricados, autoría regalada, citas infladas, conflicto no declarado</td>
+<td style="text-align: left;"><strong>Integridad científica</strong></td>
+<td style="text-align: left;">¿Es fiable lo que se afirma?</td>
+<td style="text-align: left;">La propia comunidad, durante y después</td>
+<td style="text-align: left;">Datos fabricados, autoría regalada, citas infladas, conflicto no declarado</td>
 </tr>
 <tr class="odd">
-<td><strong>Responsabilidad profesional</strong></td>
-<td>¿Quién está acreditado para hacer esto?</td>
-<td>Colegios, administración sanitaria, ley</td>
-<td>Intervenciones realizadas por quien no tiene la cualificación</td>
+<td style="text-align: left;"><strong>Responsabilidad profesional</strong></td>
+<td style="text-align: left;">¿Quién está acreditado para hacer esto?</td>
+<td style="text-align: left;">Colegios, administración sanitaria, ley</td>
+<td style="text-align: left;">Intervenciones realizadas por quien no tiene la cualificación</td>
 </tr>
 </tbody>
 </table>
@@ -1382,47 +1382,47 @@ Tabla&nbsp;4.4: Sesgos que operan dentro del proceso de investigación y razones
 <div aria-describedby="tbl-04-sesgos-proceso-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 23%">
+<col style="width: 41%">
+<col style="width: 35%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Sesgo</th>
-<th>En qué consiste</th>
-<th>Por qué es difícil de detectar</th>
+<th style="text-align: left;">Sesgo</th>
+<th style="text-align: left;">En qué consiste</th>
+<th style="text-align: left;">Por qué es difícil de detectar</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>De publicación</strong></td>
-<td>Lo que no encuentra efecto se publica menos, y más tarde</td>
-<td>El metanálisis solo ve lo publicado; el hueco no deja rastro</td>
+<td style="text-align: left;"><strong>De publicación</strong></td>
+<td style="text-align: left;">Lo que no encuentra efecto se publica menos, y más tarde</td>
+<td style="text-align: left;">El metanálisis solo ve lo publicado; el hueco no deja rastro</td>
 </tr>
 <tr class="even">
-<td><strong>De financiación</strong></td>
-<td>Los estudios patrocinados concluyen a favor del patrocinador con más frecuencia</td>
-<td>Cada estudio, por separado, es metodológicamente correcto</td>
+<td style="text-align: left;"><strong>De financiación</strong></td>
+<td style="text-align: left;">Los estudios patrocinados concluyen a favor del patrocinador con más frecuencia</td>
+<td style="text-align: left;">Cada estudio, por separado, es metodológicamente correcto</td>
 </tr>
 <tr class="odd">
-<td><strong>De publicación selectiva de resultados</strong></td>
-<td>Se informa de las variables que salieron y no de las que no</td>
-<td>Solo se detecta comparando con el protocolo, si lo hubo</td>
+<td style="text-align: left;"><strong>De publicación selectiva de resultados</strong></td>
+<td style="text-align: left;">Se informa de las variables que salieron y no de las que no</td>
+<td style="text-align: left;">Solo se detecta comparando con el protocolo, si lo hubo</td>
 </tr>
 <tr class="even">
-<td><strong><em>HARKing</em></strong></td>
-<td>Formular la hipótesis después de conocer los resultados y presentarla como previa</td>
-<td>El artículo resultante es más limpio y más convincente que uno honesto</td>
+<td style="text-align: left;"><strong><em>HARKing</em></strong></td>
+<td style="text-align: left;">Formular la hipótesis después de conocer los resultados y presentarla como previa</td>
+<td style="text-align: left;">El artículo resultante es más limpio y más convincente que uno honesto</td>
 </tr>
 <tr class="odd">
-<td><strong><em>P-hacking</em></strong></td>
-<td>Probar análisis alternativos hasta que uno da significativo</td>
-<td>Cada decisión analítica es defendible tomada de una en una</td>
+<td style="text-align: left;"><strong><em>P-hacking</em></strong></td>
+<td style="text-align: left;">Probar análisis alternativos hasta que uno da significativo</td>
+<td style="text-align: left;">Cada decisión analítica es defendible tomada de una en una</td>
 </tr>
 <tr class="even">
-<td><strong>De confirmación del investigador</strong></td>
-<td>Escrutar con más severidad lo que contradice la propia hipótesis</td>
-<td>Opera sobre decisiones que nadie registra</td>
+<td style="text-align: left;"><strong>De confirmación del investigador</strong></td>
+<td style="text-align: left;">Escrutar con más severidad lo que contradice la propia hipótesis</td>
+<td style="text-align: left;">Opera sobre decisiones que nadie registra</td>
 </tr>
 </tbody>
 </table>
@@ -1445,7 +1445,7 @@ Tabla&nbsp;4.4: Sesgos que operan dentro del proceso de investigación y razones
 <p>Es necesario tener presente <strong>de qué clase de norma se trata</strong>, porque de ahí salen sus límites. No equivalen a normas de conducta penal, ya que <strong>funcionan por declaración, supervisión y reputación</strong>. Obligan a hacer público lo que de otro modo quedaría privado —quién financia, qué intereses concurren, qué datos hay detrás— y confían el resto al escrutinio posterior de terceros. Es exactamente el mecanismo que el <a href="../capitulos/03-consenso-escepticismo-clima.html">capítulo 3</a> identificaba como fundamento de la credibilidad experta —<strong>procedimientos que dejan constancia o registro auditable</strong>—, en lugar de rasgos o componentes virtuosos de quienes los aplican.</p>
 <p>Su límite se entiende por consistencia con lo anterior: <strong>vinculan sobre todo a quien ya está dispuesto a cumplir la norma</strong>. Frente a una operación deliberada, un código de conducta hace poco por sí solo; lo que importa es el rastro documental que permite después probarla, como se ha visto ya en otros apartados.</p>
 <div id="dest-04-71" class="destacado cautela">
-<p><strong>Declarar un conflicto de interés no lo neutraliza.</strong></p>
+<p><strong>Declarar un conflicto de interés no lo neutraliza</strong></p>
 <p>La declaración hace <strong>visible y auditable</strong> una circunstancia que de otro modo no lo sería, y por eso es imprescindible. Pero no elimina su efecto, con múltiples estimaciones: la revisión Cochrane de Lundh y sus colaboradores encuentra que <strong>los estudios de fármacos y dispositivos financiados por el fabricante llegan con más frecuencia a resultados de eficacia favorables</strong> —RR 1,27 (IC 95 %: 1,17-1,37)— <strong>y a conclusiones favorables</strong> —RR 1,34 (IC 95 %: 1,19-1,51)— que los financiados por otras fuentes, y concluye que se trata de un sesgo <strong>que las herramientas habituales de evaluación del riesgo de sesgo no capturan</strong> <span class="citation" data-cites="lundh2017industry">(<a href="../bibliografia.html#ref-lundh2017industry" role="doc-biblioref">2017</a>)</span>.</p>
 <p><strong>Un rasgo temporal agrava todo lo anterior, porque cuando el sesgo se descubre, ya ha surtido efecto.</strong> El caso mejor documentado es el llamado <strong>Estudio 329</strong>, sobre paroxetina en adolescentes con depresión mayor. Se publicó en 2001 afirmando eficacia y seguridad. En 2015, un equipo independiente reanalizó los datos originales bajo un protocolo de restauración de ensayos abandonados y encontró lo contrario: <strong>ni paroxetina ni imipramina superaron al placebo en ningún desenlace preespecificado</strong>, y hubo <strong>aumentos clínicamente significativos de daños, incluidas ideación y conducta suicidas</strong> <span class="citation" data-cites="lenoury2015study329">(<a href="../bibliografia.html#ref-lenoury2015study329" role="doc-biblioref">2015</a>)</span>.</p>
 <p><strong>Catorce años.</strong> En ese plazo el artículo original se citó, se incorporó a revisiones y orientó prescripciones; y quienes lo firmaron consolidaron entretanto posiciones académicas y profesionales. Es el patrón que el capítulo viene describiendo, ahora con el reloj a la vista: <strong>la corrección llega, pero llega después de que el error haya producido todos sus efectos</strong>, y <strong>rara vez alcanza a quien lo produjo</strong>. El caso de §4.4 —donde la retractación de setenta y cinco estudios no impidió que su responsable ocupara el rectorado— dice lo mismo desde el otro extremo del sistema.</p>
@@ -1471,7 +1471,7 @@ Tabla&nbsp;4.4: Sesgos que operan dentro del proceso de investigación y razones
 <p><strong>El negocio de la cirugía estética en España y el riesgo de intrusismo</strong></p>
 <p><span id="cirugia-estetica-intrusismo-espana"></span></p>
 <p><strong>El marco legal.</strong> Cualquier licenciado en medicina está legalmente capacitado para practicar operaciones estéticas, y lo está <strong>desde 1956</strong>. La especialidad de cirugía plástica, estética y reparadora exige cinco años de residencia MIR. La orden ministerial de 2024 restringe estas intervenciones a especialistas, y es la primera modificación de fondo de ese marco en casi setenta años.</p>
-<p><strong>El sector, en cifras.</strong></p>
+<p><strong>El sector, en cifras</strong></p>
 <div id="tbl-04-cirugia-cifras" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-04-cirugia-cifras-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -1480,47 +1480,47 @@ Tabla&nbsp;4.5: El sector de la cirugía estética en España, en cifras, con la
 <div aria-describedby="tbl-04-cirugia-cifras-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 35%">
+<col style="width: 28%">
+<col style="width: 35%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Magnitud</th>
-<th>Cifra</th>
-<th>Fuente</th>
+<th style="text-align: left;">Magnitud</th>
+<th style="text-align: left;">Cifra</th>
+<th style="text-align: left;">Fuente</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Clínicas de cirugía estética</td>
-<td><strong>1.262</strong></td>
-<td>Registro general de centros, servicios y establecimientos sanitarios</td>
+<td style="text-align: left;">Clínicas de cirugía estética</td>
+<td style="text-align: left;"><strong>1.262</strong></td>
+<td style="text-align: left;">Registro general de centros, servicios y establecimientos sanitarios</td>
 </tr>
 <tr class="even">
-<td>Cirujanos con la especialidad</td>
-<td><strong>1.638</strong></td>
-<td>Organización Médica Colegial</td>
+<td style="text-align: left;">Cirujanos con la especialidad</td>
+<td style="text-align: left;"><strong>1.638</strong></td>
+<td style="text-align: left;">Organización Médica Colegial</td>
 </tr>
 <tr class="odd">
-<td>Cirugías estéticas en 2021</td>
-<td><strong>204.510</strong>, un <strong>215 % más</strong> que ocho años antes</td>
-<td>SECPRE</td>
+<td style="text-align: left;">Cirugías estéticas en 2021</td>
+<td style="text-align: left;"><strong>204.510</strong>, un <strong>215 % más</strong> que ocho años antes</td>
+<td style="text-align: left;">SECPRE</td>
 </tr>
 <tr class="even">
-<td>Volumen del sector</td>
-<td>~<strong>3.500 millones de euros/año</strong>, cirugías y otros tratamientos</td>
-<td>Sociedad Española de Medicina Estética</td>
+<td style="text-align: left;">Volumen del sector</td>
+<td style="text-align: left;">~<strong>3.500 millones de euros/año</strong>, cirugías y otros tratamientos</td>
+<td style="text-align: left;">Sociedad Española de Medicina Estética</td>
 </tr>
 <tr class="odd">
-<td>Cirujanos estéticos sin la especialidad</td>
-<td>~<strong>90 %</strong></td>
-<td>SECPRE (estimación)</td>
+<td style="text-align: left;">Cirujanos estéticos sin la especialidad</td>
+<td style="text-align: left;">~<strong>90 %</strong></td>
+<td style="text-align: left;">SECPRE (estimación)</td>
 </tr>
 <tr class="even">
-<td>Cirujanos plásticos que perciben aumento del intrusismo</td>
-<td><strong>82 %</strong></td>
-<td>Informe SECPRE-IMOP 2022</td>
+<td style="text-align: left;">Cirujanos plásticos que perciben aumento del intrusismo</td>
+<td style="text-align: left;"><strong>82 %</strong></td>
+<td style="text-align: left;">Informe SECPRE-IMOP 2022</td>
 </tr>
 </tbody>
 </table>
@@ -1537,7 +1537,7 @@ Tabla&nbsp;4.5: El sector de la cirugía estética en España, en cifras, con la
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Lecturas del caso
+<span class="screen-reader-only">Nota</span>Fuentes para el caso
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -1615,7 +1615,7 @@ Tabla&nbsp;4.5: El sector de la cirugía estética en España, en cifras, con la
 <p>No se apela a la creatividad, ni a la originalidad, ni a nada que un sistema pudiera algún día exhibir. Se apela a dos cosas estrictamente procedimentales: <strong>no pueden asumir responsabilidad</strong> sobre el trabajo presentado y, al no ser entidades jurídicas, <strong>no pueden declarar la presencia o ausencia de conflictos de interés ni gestionar derechos ni licencias</strong> <span class="citation" data-cites="cope2024autoria">(<a href="../bibliografia.html#ref-cope2024autoria" role="doc-biblioref">2024</a>)</span>. Es decir: no se les niega la autoría por lo que no saben hacer, sino <strong>por lo que no se les puede exigir</strong>.</p>
 <p><strong>Y ahí está la razón de fondo, que recorre todo este capítulo.</strong> La autoría no es principalmente un reconocimiento: es <strong>una asignación de responsabilidad</strong>. Firmar un trabajo significa que alguien queda disponible para responder de él —ante un lector que pide los datos, ante un editor que investiga una denuncia, ante un comité de ética, ante un tribunal—. Todo el aparato de integridad que describe §4.7 —declaración, supervisión, reputación, retractación— <strong>presupone un agente interpelable</strong>. Un sistema no lo es, y por eso no puede ocupar ese lugar sin vaciar el mecanismo entero.</p>
 <div id="dest-04-73" class="destacado cautela">
-<p><strong>La brecha de responsabilidad, dicha sin eufemismos.</strong></p>
+<p><strong>La brecha de responsabilidad, sin eufemismos</strong></p>
 <p>Cuando una afirmación generada resulta falsa y causa daño —una recomendación clínica errónea, una cita fabricada que se cuela en una revisión sistemática y desde ahí en una guía de práctica— <strong>la responsabilidad no desaparece porque la haya escrito una máquina</strong>. Se queda íntegramente donde estaba: <strong>en quien firmó</strong>.</p>
 <p>Esto no es una formalidad jurídica que se pueda negociar con una nota al pie. Es la condición que hace utilizable lo publicado: <strong>se puede confiar en un artículo porque hay alguien que responde de él</strong>, no porque el procedimiento de escritura ofrezca garantías propias. Quien delega la redacción de una afirmación <strong>no delega la obligación de haberla comprobado</strong>.</p>
 </div>
@@ -1625,11 +1625,11 @@ Tabla&nbsp;4.5: El sector de la cirugía estética en España, en cifras, con la
 </section>
 <section id="y-la-pregunta-que-queda-abierta" class="level3" data-number="4.8.4">
 <h3 data-number="4.8.4" class="anchored" data-anchor-id="y-la-pregunta-que-queda-abierta"><span class="header-section-number">4.8.4</span> Y la pregunta que queda abierta</h3>
-<p>Nada de lo anterior responde a la cuestión de fondo, que el libro deja planteada porque no está resuelta: <strong>si un sistema propone una hipótesis fértil o un diseño experimental acertado, ¿qué estatuto epistémico tiene esa contribución?</strong> La respuesta fácil —«es una herramienta, como un microscopio»— no acaba de servir, porque un microscopio no propone qué mirar. Y la respuesta contraria —tratarla como una aportación intelectual— choca con todo lo que se acaba de decir sobre la responsabilidad.</p>
+<p>Nada de lo anterior responde a la cuestión de fondo, que se deja planteada pero no está resuelta: <strong>si un sistema propone una hipótesis fértil o un diseño experimental acertado, ¿qué estatuto epistémico tiene esa contribución?</strong> La respuesta fácil —«es una herramienta, como un microscopio»— no acaba de servir, porque un microscopio no propone qué mirar. Y la respuesta contraria —tratarla como una aportación intelectual— choca con todo lo que se acaba de decir sobre la responsabilidad.</p>
 <p>La salida que este capítulo sugiere sin cerrarla consiste en <strong>separar el descubrimiento de la justificación</strong>, distinción clásica de la epistemología de la ciencia que aquí resulta inesperadamente útil. <strong>De dónde salga una hipótesis no afecta a su valor</strong>: pueden salir de un sueño, de una analogía, de un error de cálculo o de un modelo estadístico, porque lo que la sostiene es la contrastación posterior. Y esa contrastación <strong>sí tiene que ser humana, pública y auditable</strong>, por la razón que se acaba de dar: alguien tiene que responder de ella.</p>
 <p>El problema aparece, entonces, cuando el sistema interviene <strong>del lado de la justificación</strong>: cuando resume la evidencia disponible, cuando redacta la revisión de literatura sobre la que se apoya una conclusión, cuando evalúa el manuscrito de otro. Ahí ya no está proponiendo qué mirar —donde su procedencia da igual— sino <strong>certificando lo que se ha visto</strong>, que es precisamente lo que no puede hacer quien no puede ser interpelado.</p>
 <div id="dest-04-74" class="destacado implicacion">
-<p><strong>El reparto de tareas que se sigue de todo esto.</strong></p>
+<p><strong>Algunos cambios inevitables en el reparto de tareas</strong></p>
 <p>No es una lista de prohibiciones, sino una regla derivada de dónde está la asimetría:</p>
 <ul>
 <li><strong>Delegar lo que se comprueba barato</strong> —redacción, estructura, código que se ejecuta y se prueba, traducción, resumen de un texto que se tiene delante— y <strong>no delegar lo que solo se comprueba caro</strong>: qué dice la literatura, qué apoya una afirmación, qué existe.</li>
@@ -1663,9 +1663,9 @@ Tabla&nbsp;4.5: El sector de la cirugía estética en España, en cifras, con la
 </section>
 <section id="conformidad-bajo-coacción-y-dinámicas-de-cancelación" class="level2" data-number="4.9">
 <h2 data-number="4.9" class="anchored" data-anchor-id="conformidad-bajo-coacción-y-dinámicas-de-cancelación"><span class="header-section-number">4.9</span> Conformidad bajo coacción y dinámicas de cancelación</h2>
-<section id="por-qué-esto-pertenece-a-un-libro-de-epistemología" class="level3" data-number="4.9.1">
-<h3 data-number="4.9.1" class="anchored" data-anchor-id="por-qué-esto-pertenece-a-un-libro-de-epistemología"><span class="header-section-number">4.9.1</span> Por qué esto pertenece a un libro de epistemología</h3>
-<p>El <a href="../capitulos/03-consenso-escepticismo-clima.html">capítulo 3</a> defiende el consenso científico con un argumento preciso: es creíble <strong>por el mecanismo que lo produce</strong>, no por la virtud de quienes lo integran. Ese argumento tiene una condición de la que depende por entero: <strong>que el desacuerdo pueda llegar al expediente y ser examinado</strong>. Un consenso al que se llega porque discrepar sale caro no informa sobre el estado de la evidencia; informa sobre <strong>el precio de discrepar</strong>.</p>
+<section id="por-qué-tratar-el-problema-en-un-texto-de-epistemología-aplicada" class="level3" data-number="4.9.1">
+<h3 data-number="4.9.1" class="anchored" data-anchor-id="por-qué-tratar-el-problema-en-un-texto-de-epistemología-aplicada"><span class="header-section-number">4.9.1</span> Por qué tratar el problema en un texto de epistemología aplicada</h3>
+<p>El <a href="../capitulos/03-consenso-escepticismo-clima.html">capítulo 3</a> defiende el consenso científico con un argumento preciso: es creíble <strong>por el mecanismo que lo produce</strong>, no por la virtud de quienes lo integran. Ese argumento tiene una condición de la que depende por entero: <strong>que el desacuerdo pueda llegar al expediente y ser examinado</strong>. Un consenso al que se llega porque discrepar sale caro no informa sobre el estado de la evidencia, sino sobre <strong>el coste de discrepar</strong>. Su estimación requiere herramientas analíticas de cierta sutileza.</p>
 <p>De ahí que este apartado no trate de convivencia académica ni de buenos modales. Trata de una condición de posibilidad: <strong>lo que contribuye a encarecer la defensa de una posición minoritaria degrada el procedimiento entero</strong>, y lo hace con independencia de la dirección en que empuje la presión y de quién la ejerza.</p>
 </section>
 <section id="el-mecanismo-cuando-lo-que-se-dice-deja-de-coincidir-con-lo-que-se-piensa" class="level3" data-number="4.9.2">
@@ -1676,7 +1676,7 @@ Tabla&nbsp;4.5: El sector de la cirugía estética en España, en cifras, con la
 <li><strong>El error se compone</strong>, porque cada cual calibra su propia posición en función de lo que oye. Quien duda en privado y no oye a nadie dudar concluye que su duda es excéntrica, y calla; con lo que refuerza la señal que hizo callar al siguiente.</li>
 <li><strong>Los cambios llegan de golpe y parecen inexplicables.</strong> Cuando el coste baja, la posición privada aflora de una vez, y el vuelco desconcierta precisamente a quienes tomaban la unanimidad aparente por unanimidad real.</li>
 </ol>
-<p>Aplicado a la producción de conocimiento, esos tres efectos tienen nombres reconocibles: una <strong>unanimidad aparente</strong> que ningún dato sostiene; <strong>líneas de investigación que nadie abre</strong>, no porque se hayan descartado sino porque abrirlas es caro; y <strong>giros bruscos</strong> en un campo cuando un resultado o un cambio de clima hacen barato decir lo que ya se pensaba.</p>
+<p>Aplicado a la producción de conocimiento, esos tres efectos tienen rasgos reconocibles: una <strong>unanimidad aparente</strong> que ningún dato sostiene; <strong>líneas de investigación que nadie abre</strong>, no porque se hayan descartado sino porque abrirlas es caro; y <strong>giros bruscos</strong> en un campo cuando un resultado o un cambio de clima hacen barato decir lo que ya se pensaba.</p>
 <div id="dest-04-75" class="destacado cautela">
 <p><strong>Dos errores simétricos que merecen un tratamiento equilibrado</strong></p>
 <p><strong>El primero es llamar censura a la crítica.</strong> Que un manuscrito sea rechazado, que un argumento sea refutado, que un trabajo reciba una recensión demoledora o que una posición pierda apoyo tras discutirse <strong>no es ser silenciado</strong>: es el funcionamiento normal del procedimiento, como se indica en varias secciones de este trabajo. Tratarlo como persecución tiene un efecto epistémico concreto y grave —<strong>inmuniza el trabajo débil frente al escrutinio</strong>— y reproduce exactamente el paso 6 del esquema descrito en el <a href="../capitulos/02-instrumentalizacion-debate-social.html">capítulo 2</a>: trasladar el desacuerdo del terreno de la evidencia al de la pertenencia, donde ya no se puede perder.</p>
@@ -1701,7 +1701,7 @@ Tabla&nbsp;4.5: El sector de la cirugía estética en España, en cifras, con la
 <p><strong>Presión institucional y del financiador</strong>, ya examinada en §4.1 y §4.7: quien fija la agenda, quien pone su nombre en el centro, quien puede no renovar. Es la más constante de todas y casi nunca se percibe como coacción, porque no hace falta que nadie amenace: basta con que todos sepan qué se espera.</p>
 <p><strong>Presión de pares</strong>, la más difusa: el revisor que penaliza lo heterodoxo, el tribunal que prefiere lo reconocible, la costumbre de citar lo que se cita. Es el sesgo de revisión por pares de §4.5, visto ahora desde el lado de sus efectos sobre quién se atreve a enviar qué.</p>
 <div id="dest-04-76" class="destacado implicacion">
-<p><strong>Los remedios son procedimentales, como en todo el capítulo.</strong></p>
+<p><strong>Garantías procedimentales como remedio ya ensayado</strong></p>
 <p>Si el problema fuera de carácter, la solución sería pedir valentía. Como es de estructura de costes, la solución consiste en <strong>abaratar el disenso y dejar constancia de él</strong>:</p>
 <ul>
 <li><strong>Preinscripción del protocolo y registered reports</strong>, que fijan el diseño y comprometen la publicación <strong>antes de conocer el resultado</strong>: quitan al resultado incómodo su penalización.</li>

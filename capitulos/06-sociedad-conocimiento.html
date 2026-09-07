@@ -106,7 +106,7 @@ div.csl-indent {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap">
 <meta name="description" content="Monografía de epistemología aplicada orientada al análisis de casos.">
-<meta name="citation_doi" content="10.5281/zenodo.17284805">
+<meta name="citation_doi" content="10.5281/zenodo.22496144">
 <!-- Boton «Copiar» en los bloques de referencias. Se inyecta desde aqui para no tocar ningun .qmd: alcanza los dos perfiles y todos los capitulos. Va en una sola linea a proposito, por la regla de arriba. Estilo: .fc-copiar en _componentes.scss. -->
 <script>document.addEventListener("DOMContentLoaded", function () { var R = /referencia|enlace|lectura|fuente/i; function texto(cont) { var clon = cont.cloneNode(true); clon.querySelectorAll(".fc-copiar").forEach(function (x) { x.remove(); }); var li = clon.querySelectorAll("li"); if (li.length) { return Array.prototype.map.call(li, function (x) { return x.textContent.replace(/\s+/g, " ").trim(); }).join("\n"); } return (clon.innerText || clon.textContent).trim(); } function respaldo(txt, ok) { var a = document.createElement("textarea"); a.value = txt; a.setAttribute("readonly", ""); a.style.position = "fixed"; a.style.top = "-1000px"; a.style.opacity = "0"; document.body.appendChild(a); a.select(); try { document.execCommand("copy"); ok(); } catch (e) { } a.remove(); } function copiar(txt, boton) { var ok = function () { boton.textContent = "Copiado"; setTimeout(function () { boton.textContent = "Copiar"; }, 1600); }; if (navigator.clipboard && window.isSecureContext) { navigator.clipboard.writeText(txt).then(ok, function () { respaldo(txt, ok); }); } else { respaldo(txt, ok); } } function poner(cont) { if (!cont || cont.querySelector(":scope > .fc-copiar")) { return; } var b = document.createElement("button"); b.type = "button"; b.className = "fc-copiar"; b.textContent = "Copiar"; b.setAttribute("aria-label", "Copiar las referencias de este apartado"); b.addEventListener("click", function (e) { e.stopPropagation(); copiar(texto(cont), b); }); cont.prepend(b); } document.querySelectorAll(".bloque-referencias .contenido").forEach(function (c) { poner(c); }); document.querySelectorAll(".callout").forEach(function (c) { var t = c.querySelector(".callout-title-container"); if (!t || !R.test(t.textContent)) { return; } poner(c.querySelector(".callout-body-container") || c.querySelector(".callout-body")); }); });</script>
 <!-- Controles de lectura: tamano de texto y tema sepia. Se aplica el estado guardado ANTES de pintar, para que no haya parpadeo. Una sola linea, por la regla de arriba. -->
@@ -711,62 +711,62 @@ Tabla&nbsp;6.1: Confianza en la fuente y eficacia de los desmentidos: esquema en
 <div aria-describedby="tbl-06-confianza-fuentes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 31%">
+<col style="width: 43%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nivel 1: Ideas principales</th>
-<th>Nivel 2: Ideas secundarias</th>
-<th>Nivel 3: Detalles, explicaciones o casos</th>
+<th style="text-align: left;">Nivel 1: Ideas principales</th>
+<th style="text-align: left;">Nivel 2: Ideas secundarias</th>
+<th style="text-align: left;">Nivel 3: Detalles, explicaciones o casos</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Efectividad de las intervenciones contra la desinformación</strong></td>
-<td>- Los “debunks” y “prebunks” son efectivos para combatir la desinformación.</td>
-<td>- Se observó una reducción significativa en la aceptación de afirmaciones falsas, la credibilidad percibida y la intención de compartir información errónea.</td>
+<td style="text-align: left;"><strong>Efectividad de las intervenciones contra la desinformación</strong></td>
+<td style="text-align: left;">- Los “debunks” y “prebunks” son efectivos para combatir la desinformación.</td>
+<td style="text-align: left;">- Se observó una reducción significativa en la aceptación de afirmaciones falsas, la credibilidad percibida y la intención de compartir información errónea.</td>
 </tr>
 <tr class="even">
-<td></td>
-<td>- Los “debunks” son ligeramente más efectivos que los “prebunks”.</td>
-<td>- Esta diferencia se observó en la reducción de la creencia en afirmaciones falsas y la probabilidad de compartir información errónea para expresar acuerdo.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">- Los “debunks” son ligeramente más efectivos que los “prebunks”.</td>
+<td style="text-align: left;">- Esta diferencia se observó en la reducción de la creencia en afirmaciones falsas y la probabilidad de compartir información errónea para expresar acuerdo.</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td>- La revelación de la fuente de la intervención (Comisión Europea) no afectó significativamente su efectividad general.</td>
-<td>- Este hallazgo sugiere que las instituciones públicas pueden intervenir contra la desinformación sin temor a un impacto negativo por revelar su participación.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">- La revelación de la fuente de la intervención (Comisión Europea) no afectó significativamente su efectividad general.</td>
+<td style="text-align: left;">- Este hallazgo sugiere que las instituciones públicas pueden intervenir contra la desinformación sin temor a un impacto negativo por revelar su participación.</td>
 </tr>
 <tr class="even">
-<td><strong>Influencia de la confianza en la fuente</strong></td>
-<td>- Existe una correlación negativa entre la confianza en la UE y la susceptibilidad a la desinformación.</td>
-<td>- A mayor confianza en la UE, menor creencia en información errónea, menor credibilidad percibida y menor intención de compartirla.</td>
+<td style="text-align: left;"><strong>Influencia de la confianza en la fuente</strong></td>
+<td style="text-align: left;">- Existe una correlación negativa entre la confianza en la UE y la susceptibilidad a la desinformación.</td>
+<td style="text-align: left;">- A mayor confianza en la UE, menor creencia en información errónea, menor credibilidad percibida y menor intención de compartirla.</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td>- La efectividad de los “debunks” de la Comisión Europea aumenta con mayores niveles de confianza en la UE.</td>
-<td>- Este hallazgo sugiere la importancia de fomentar la confianza en las instituciones públicas para una mayor efectividad de las intervenciones contra la desinformación.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">- La efectividad de los “debunks” de la Comisión Europea aumenta con mayores niveles de confianza en la UE.</td>
+<td style="text-align: left;">- Este hallazgo sugiere la importancia de fomentar la confianza en las instituciones públicas para una mayor efectividad de las intervenciones contra la desinformación.</td>
 </tr>
 <tr class="even">
-<td></td>
-<td>- Se observó un efecto heterogéneo indeseable: los “debunks” con fuentes reveladas fueron menos efectivos para disminuir la credibilidad de la información errónea entre personas con bajos niveles de confianza en la UE.</td>
-<td>- Este hallazgo destaca la necesidad de considerar la confianza en la fuente al diseñar intervenciones para audiencias con baja confianza institucional.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">- Se observó un efecto heterogéneo indeseable: los “debunks” con fuentes reveladas fueron menos efectivos para disminuir la credibilidad de la información errónea entre personas con bajos niveles de confianza en la UE.</td>
+<td style="text-align: left;">- Este hallazgo destaca la necesidad de considerar la confianza en la fuente al diseñar intervenciones para audiencias con baja confianza institucional.</td>
 </tr>
 <tr class="odd">
-<td><strong>Limitaciones del estudio y futuras líneas de investigación</strong></td>
-<td>- El estudio presenta limitaciones en cuanto a su validez externa.</td>
-<td>- Las intervenciones se realizaron inmediatamente después de la exposición a la desinformación, lo que podría haber inflado el tamaño del efecto.</td>
+<td style="text-align: left;"><strong>Limitaciones del estudio y futuras líneas de investigación</strong></td>
+<td style="text-align: left;">- El estudio presenta limitaciones en cuanto a su validez externa.</td>
+<td style="text-align: left;">- Las intervenciones se realizaron inmediatamente después de la exposición a la desinformación, lo que podría haber inflado el tamaño del efecto.</td>
 </tr>
 <tr class="even">
-<td></td>
-<td>- Se necesitan más investigaciones para comprender el papel de la confianza en la fuente en la efectividad de las intervenciones.</td>
-<td>- Se sugiere explorar la medición de la confianza antes del tratamiento o la manipulación externa de la confianza para abordar posibles sesgos.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">- Se necesitan más investigaciones para comprender el papel de la confianza en la fuente en la efectividad de las intervenciones.</td>
+<td style="text-align: left;">- Se sugiere explorar la medición de la confianza antes del tratamiento o la manipulación externa de la confianza para abordar posibles sesgos.</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td>- Se requiere una comprensión más profunda de las diferencias transnacionales en la efectividad de las intervenciones.</td>
-<td>- Se anima a investigar las causas de las variaciones observadas en los efectos de las intervenciones entre los países estudiados.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">- Se requiere una comprensión más profunda de las diferencias transnacionales en la efectividad de las intervenciones.</td>
+<td style="text-align: left;">- Se anima a investigar las causas de las variaciones observadas en los efectos de las intervenciones entre los países estudiados.</td>
 </tr>
 </tbody>
 </table>

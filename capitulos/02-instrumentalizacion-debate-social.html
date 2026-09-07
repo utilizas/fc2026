@@ -103,7 +103,7 @@ div.csl-indent {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap">
 <meta name="description" content="Monografía de epistemología aplicada orientada al análisis de casos.">
-<meta name="citation_doi" content="10.5281/zenodo.17284805">
+<meta name="citation_doi" content="10.5281/zenodo.22496144">
 <!-- Boton «Copiar» en los bloques de referencias. Se inyecta desde aqui para no tocar ningun .qmd: alcanza los dos perfiles y todos los capitulos. Va en una sola linea a proposito, por la regla de arriba. Estilo: .fc-copiar en _componentes.scss. -->
 <script>document.addEventListener("DOMContentLoaded", function () { var R = /referencia|enlace|lectura|fuente/i; function texto(cont) { var clon = cont.cloneNode(true); clon.querySelectorAll(".fc-copiar").forEach(function (x) { x.remove(); }); var li = clon.querySelectorAll("li"); if (li.length) { return Array.prototype.map.call(li, function (x) { return x.textContent.replace(/\s+/g, " ").trim(); }).join("\n"); } return (clon.innerText || clon.textContent).trim(); } function respaldo(txt, ok) { var a = document.createElement("textarea"); a.value = txt; a.setAttribute("readonly", ""); a.style.position = "fixed"; a.style.top = "-1000px"; a.style.opacity = "0"; document.body.appendChild(a); a.select(); try { document.execCommand("copy"); ok(); } catch (e) { } a.remove(); } function copiar(txt, boton) { var ok = function () { boton.textContent = "Copiado"; setTimeout(function () { boton.textContent = "Copiar"; }, 1600); }; if (navigator.clipboard && window.isSecureContext) { navigator.clipboard.writeText(txt).then(ok, function () { respaldo(txt, ok); }); } else { respaldo(txt, ok); } } function poner(cont) { if (!cont || cont.querySelector(":scope > .fc-copiar")) { return; } var b = document.createElement("button"); b.type = "button"; b.className = "fc-copiar"; b.textContent = "Copiar"; b.setAttribute("aria-label", "Copiar las referencias de este apartado"); b.addEventListener("click", function (e) { e.stopPropagation(); copiar(texto(cont), b); }); cont.prepend(b); } document.querySelectorAll(".bloque-referencias .contenido").forEach(function (c) { poner(c); }); document.querySelectorAll(".callout").forEach(function (c) { var t = c.querySelector(".callout-title-container"); if (!t || !R.test(t.textContent)) { return; } poner(c.querySelector(".callout-body-container") || c.querySelector(".callout-body")); }); });</script>
 <!-- Controles de lectura: tamano de texto y tema sepia. Se aplica el estado guardado ANTES de pintar, para que no haya parpadeo. Una sola linea, por la regla de arriba. -->
@@ -597,25 +597,25 @@ Tabla&nbsp;2.1: Balance provisional de la temporada de incendios de 2026 en Espa
 <div aria-describedby="tbl-02-incendios-2026-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
+<col style="width: 27%">
+<col style="width: 72%">
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Superficie quemada en 2026</td>
-<td><strong>297.633 hectáreas</strong> según EFFIS, con datos provisionales a 23 de agosto; 247.132 de ellas solo entre julio y agosto <span class="citation" data-cites="effis2026espana">(<a href="../bibliografia.html#ref-effis2026espana" role="doc-biblioref">European Forest Fire Information System, 2026</a>)</span></td>
+<td style="text-align: left;">Superficie quemada en 2026</td>
+<td style="text-align: left;"><strong>297.633 hectáreas</strong> según EFFIS, con datos provisionales a 23 de agosto; 247.132 de ellas solo entre julio y agosto <span class="citation" data-cites="effis2026espana">(<a href="../bibliografia.html#ref-effis2026espana" role="doc-biblioref">European Forest Fire Information System, 2026</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Grandes incendios</td>
-<td><strong>42</strong> en esos dos meses</td>
+<td style="text-align: left;">Grandes incendios</td>
+<td style="text-align: left;"><strong>42</strong> en esos dos meses</td>
 </tr>
 <tr class="odd">
-<td>Mayor incendio</td>
-<td>Niebla (Huelva), por encima de <strong>43.000 hectáreas</strong></td>
+<td style="text-align: left;">Mayor incendio</td>
+<td style="text-align: left;">Niebla (Huelva), por encima de <strong>43.000 hectáreas</strong></td>
 </tr>
 <tr class="even">
-<td>Incendio más letal</td>
-<td>Los Gallardos y Bédar (Almería), iniciado el 10 de julio: <strong>el de más víctimas mortales de lo que va de siglo en España</strong>, con cerca de 6.600 hectáreas y unas 1.400 personas evacuadas <span class="citation" data-cites="espino2026gallardos">(<a href="../bibliografia.html#ref-espino2026gallardos" role="doc-biblioref">Espino, 2026</a>)</span></td>
+<td style="text-align: left;">Incendio más letal</td>
+<td style="text-align: left;">Los Gallardos y Bédar (Almería), iniciado el 10 de julio: <strong>el de más víctimas mortales de lo que va de siglo en España</strong>, con cerca de 6.600 hectáreas y unas 1.400 personas evacuadas <span class="citation" data-cites="espino2026gallardos">(<a href="../bibliografia.html#ref-espino2026gallardos" role="doc-biblioref">Espino, 2026</a>)</span></td>
 </tr>
 </tbody>
 </table>
@@ -704,36 +704,36 @@ Tabla&nbsp;2.2: Cuatro operaciones de instrumentalización del conocimiento, con
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 40%">
+<col style="width: 26%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Operación</th>
+<th style="text-align: left;">Operación</th>
 <th>En qué consiste</th>
-<th>Dónde se examina</th>
+<th style="text-align: left;">Dónde se examina</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Explotar la incertidumbre residual</strong></td>
+<td style="text-align: left;"><strong>Explotar la incertidumbre residual</strong></td>
 <td>Presentar la cautela metodológica —el margen de error, la falta de consenso sobre un detalle— como si fuera desacuerdo sobre lo esencial. No exige mentir: basta con citar bien y encuadrar mal</td>
-<td>§2.3 y el caso 3</td>
+<td style="text-align: left;">§2.3 y el caso 3</td>
 </tr>
 <tr class="even">
-<td><strong>Tomar prestada la epistemología</strong></td>
+<td style="text-align: left;"><strong>Tomar prestada la epistemología</strong></td>
 <td>Usar argumentos filosóficos sobre la construcción social del conocimiento, elaborados para criticar el poder, como coartada para negar la evidencia incómoda. Es el <strong>uso tóxico</strong> que da nombre a §2.4: un esquema de seis pasos, no un exabrupto ocasional</td>
-<td>§2.4</td>
+<td style="text-align: left;">§2.4</td>
 </tr>
 <tr class="odd">
-<td><strong>Capturar el incentivo</strong></td>
+<td style="text-align: left;"><strong>Capturar el incentivo</strong></td>
 <td>No atacar la ciencia desde fuera, sino modificar desde dentro qué se premia: qué se financia, qué se publica, qué cuenta como mérito</td>
-<td>§2.5</td>
+<td style="text-align: left;">§2.5</td>
 </tr>
 <tr class="even">
-<td><strong>Apropiarse del vocabulario</strong></td>
+<td style="text-align: left;"><strong>Apropiarse del vocabulario</strong></td>
 <td>Tomar el nombre de un principio físico, la forma de un ensayo o la mención de una revista sin someterse a nada de lo que los respalda</td>
-<td>Casos 1 y 2</td>
+<td style="text-align: left;">Casos 1 y 2</td>
 </tr>
 </tbody>
 </table>
@@ -757,67 +757,67 @@ Tabla&nbsp;2.3: Productos y técnicas sin aval científico, ordenados por la fec
 <div aria-describedby="tbl-02-productos-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
+<col style="width: 20%">
 <col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 46%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Producto o técnica (año)</th>
-<th>Afirmación central</th>
-<th>Cómo se desmontó</th>
+<th style="text-align: left;">Producto o técnica (año)</th>
+<th style="text-align: left;">Afirmación central</th>
+<th style="text-align: left;">Cómo se desmontó</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Homeopatía</strong> (siglo XIX)</td>
-<td>Sustancias diluidas más allá del límite en que queda molécula alguna curan por «memoria del agua»</td>
-<td><strong>Informe de agencia sanitaria</strong>: el Ministerio de Sanidad español revisa <strong>64 revisiones sistemáticas</strong> y concluye el 21/04/2026 que no hay evidencia de eficacia en ninguna patología y que los efectos son equiparables al placebo <span class="citation" data-cites="sanidad2026homeopatia">(<a href="../bibliografia.html#ref-sanidad2026homeopatia" role="doc-biblioref">Ministerio de Sanidad, 2026</a>)</span></td>
+<td style="text-align: left;"><strong>Homeopatía</strong> (siglo XIX)</td>
+<td style="text-align: left;">Sustancias diluidas más allá del límite en que queda molécula alguna curan por «memoria del agua»</td>
+<td style="text-align: left;"><strong>Informe de agencia sanitaria</strong>: el Ministerio de Sanidad español revisa <strong>64 revisiones sistemáticas</strong> y concluye el 21/04/2026 que no hay evidencia de eficacia en ninguna patología y que los efectos son equiparables al placebo <span class="citation" data-cites="sanidad2026homeopatia">(<a href="../bibliografia.html#ref-sanidad2026homeopatia" role="doc-biblioref">Ministerio de Sanidad, 2026</a>)</span></td>
 </tr>
 <tr class="even">
-<td><strong>Q-Ray Ionized Bracelet</strong> (años noventa)</td>
-<td>Una pulsera «ionizada» que alivia el dolor y equilibra la energía corporal</td>
-<td><strong>Tribunal federal</strong>: la FTC gana en primera instancia (2006) y el Séptimo Circuito confirma el 3/01/2008 la devolución de 15,9 millones de dólares de beneficios</td>
+<td style="text-align: left;"><strong>Q-Ray Ionized Bracelet</strong> (años noventa)</td>
+<td style="text-align: left;">Una pulsera «ionizada» que alivia el dolor y equilibra la energía corporal</td>
+<td style="text-align: left;"><strong>Tribunal federal</strong>: la FTC gana en primera instancia (2006) y el Séptimo Circuito confirma el 3/01/2008 la devolución de 15,9 millones de dólares de beneficios</td>
 </tr>
 <tr class="odd">
-<td><strong>Cinturón abdominal eléctrico</strong> (década de 2000)</td>
-<td>Musculatura abdominal y pérdida de grasa sin ejercicio, por electroestimulación</td>
-<td><strong>Regulador de consumo</strong>: la FTC demanda el 8/05/2002 a los tres más vendidos —Ab Energizer, AbTronic y Fast Abs— por publicidad engañosa</td>
+<td style="text-align: left;"><strong>Cinturón abdominal eléctrico</strong> (década de 2000)</td>
+<td style="text-align: left;">Musculatura abdominal y pérdida de grasa sin ejercicio, por electroestimulación</td>
+<td style="text-align: left;"><strong>Regulador de consumo</strong>: la FTC demanda el 8/05/2002 a los tres más vendidos —Ab Energizer, AbTronic y Fast Abs— por publicidad engañosa</td>
 </tr>
 <tr class="even">
-<td><strong>Pulsera antimosquitos ultrasónica</strong> (década de 2000)</td>
-<td>Repeler mosquitos mediante ultrasonidos</td>
-<td><strong>Revisión sistemática</strong>: diez estudios de campo, ningún efecto sobre las picaduras, «<em>no hay justificación para comercializarlos</em>» <span class="citation" data-cites="enayati2007electronic">(<a href="../bibliografia.html#ref-enayati2007electronic" role="doc-biblioref">Enayati et al., 2007</a>)</span></td>
+<td style="text-align: left;"><strong>Pulsera antimosquitos ultrasónica</strong> (década de 2000)</td>
+<td style="text-align: left;">Repeler mosquitos mediante ultrasonidos</td>
+<td style="text-align: left;"><strong>Revisión sistemática</strong>: diez estudios de campo, ningún efecto sobre las picaduras, «<em>no hay justificación para comercializarlos</em>» <span class="citation" data-cites="enayati2007electronic">(<a href="../bibliografia.html#ref-enayati2007electronic" role="doc-biblioref">Enayati et al., 2007</a>)</span></td>
 </tr>
 <tr class="odd">
-<td><strong>Theranos</strong> (2003)</td>
-<td>Un panel completo de análisis a partir de una gota de sangre capilar</td>
-<td><strong>Periodismo de investigación</strong> (<em>The Wall Street Journal</em>, oct. 2015), retirada de la acreditación del laboratorio por los CMS (2016) y <strong>condena penal</strong> por fraude a inversores (enero de 2022)</td>
+<td style="text-align: left;"><strong>Theranos</strong> (2003)</td>
+<td style="text-align: left;">Un panel completo de análisis a partir de una gota de sangre capilar</td>
+<td style="text-align: left;"><strong>Periodismo de investigación</strong> (<em>The Wall Street Journal</em>, oct. 2015), retirada de la acreditación del laboratorio por los CMS (2016) y <strong>condena penal</strong> por fraude a inversores (enero de 2022)</td>
 </tr>
 <tr class="even">
-<td><strong>Aqua Detox</strong> y baños iónicos de pies (2004)</td>
-<td>Eliminación de toxinas del organismo a través de la planta del pie</td>
-<td><strong>Replicación elemental</strong>: el agua se tiñe igual sin pies dentro, por electrólisis de los electrodos; un ensayo controlado no halla diferencias en la excreción de elementos tóxicos <span class="citation" data-cites="kennedy2012ionic">(<a href="../bibliografia.html#ref-kennedy2012ionic" role="doc-biblioref">Kennedy et al., 2012</a>)</span></td>
+<td style="text-align: left;"><strong>Aqua Detox</strong> y baños iónicos de pies (2004)</td>
+<td style="text-align: left;">Eliminación de toxinas del organismo a través de la planta del pie</td>
+<td style="text-align: left;"><strong>Replicación elemental</strong>: el agua se tiñe igual sin pies dentro, por electrólisis de los electrodos; un ensayo controlado no halla diferencias en la excreción de elementos tóxicos <span class="citation" data-cites="kennedy2012ionic">(<a href="../bibliografia.html#ref-kennedy2012ionic" role="doc-biblioref">Kennedy et al., 2012</a>)</span></td>
 </tr>
 <tr class="odd">
-<td><strong>Power Balance</strong> (2007)</td>
-<td>Un holograma que mejora equilibrio, fuerza y flexibilidad «trabajando con el campo energético del cuerpo»</td>
-<td><strong>Regulador de consumo</strong>: la ACCC australiana obtiene el 22/12/2010 que la empresa admita que <em>no existe base científica creíble</em> para la afirmación, con reembolsos y publicidad correctora</td>
+<td style="text-align: left;"><strong>Power Balance</strong> (2007)</td>
+<td style="text-align: left;">Un holograma que mejora equilibrio, fuerza y flexibilidad «trabajando con el campo energético del cuerpo»</td>
+<td style="text-align: left;"><strong>Regulador de consumo</strong>: la ACCC australiana obtiene el 22/12/2010 que la empresa admita que <em>no existe base científica creíble</em> para la afirmación, con reembolsos y publicidad correctora</td>
 </tr>
 <tr class="even">
-<td><strong>Clínicas de células madre no autorizadas</strong> (década de 2010)</td>
-<td>Preparados de fracción vascular estromal para párkinson, ictus, lesión medular o daño cerebral</td>
-<td><strong>Tribunal federal</strong>: sentencia de junio de 2019 contra US Stem Cell Clinic, con orden permanente de cese, confirmada por el Undécimo Circuito en 2021</td>
+<td style="text-align: left;"><strong>Clínicas de células madre no autorizadas</strong> (década de 2010)</td>
+<td style="text-align: left;">Preparados de fracción vascular estromal para párkinson, ictus, lesión medular o daño cerebral</td>
+<td style="text-align: left;"><strong>Tribunal federal</strong>: sentencia de junio de 2019 contra US Stem Cell Clinic, con orden permanente de cese, confirmada por el Undécimo Circuito en 2021</td>
 </tr>
 <tr class="odd">
-<td><strong>Oxigenoterapia hiperbárica fuera de indicación</strong> (década de 2010)</td>
-<td>Cámaras de oxígeno a presión para autismo, alzhéimer, cáncer o COVID persistente</td>
-<td><strong>Revisión sistemática</strong>: la revisión Cochrane sobre autismo no encuentra evidencia de beneficio <span class="citation" data-cites="xiong2016hyperbaric">(<a href="../bibliografia.html#ref-xiong2016hyperbaric" role="doc-biblioref">Xiong et al., 2016</a>)</span>. La técnica <strong>sí está autorizada</strong> para un conjunto acotado de indicaciones, lo que hace el caso más difícil</td>
+<td style="text-align: left;"><strong>Oxigenoterapia hiperbárica fuera de indicación</strong> (década de 2010)</td>
+<td style="text-align: left;">Cámaras de oxígeno a presión para autismo, alzhéimer, cáncer o COVID persistente</td>
+<td style="text-align: left;"><strong>Revisión sistemática</strong>: la revisión Cochrane sobre autismo no encuentra evidencia de beneficio <span class="citation" data-cites="xiong2016hyperbaric">(<a href="../bibliografia.html#ref-xiong2016hyperbaric" role="doc-biblioref">Xiong et al., 2016</a>)</span>. La técnica <strong>sí está autorizada</strong> para un conjunto acotado de indicaciones, lo que hace el caso más difícil</td>
 </tr>
 <tr class="even">
-<td><strong>Ozonoterapia</strong> (uso creciente desde 2000; pico en 2020)</td>
-<td>Ozono administrado por vía sistémica o local como tratamiento de dolencias muy diversas</td>
-<td><strong>Norma reguladora</strong>: la FDA mantiene desde hace décadas que «<em>el ozono es un gas tóxico sin ninguna aplicación médica útil conocida en terapia específica, coadyuvante o preventiva</em>» <span class="citation" data-cites="fdaozono">(<a href="../bibliografia.html#ref-fdaozono" role="doc-biblioref">U.S. Food and Drug Administration, s. f.</a>)</span></td>
+<td style="text-align: left;"><strong>Ozonoterapia</strong> (uso creciente desde 2000; pico en 2020)</td>
+<td style="text-align: left;">Ozono administrado por vía sistémica o local como tratamiento de dolencias muy diversas</td>
+<td style="text-align: left;"><strong>Norma reguladora</strong>: la FDA mantiene desde hace décadas que «<em>el ozono es un gas tóxico sin ninguna aplicación médica útil conocida en terapia específica, coadyuvante o preventiva</em>» <span class="citation" data-cites="fdaozono">(<a href="../bibliografia.html#ref-fdaozono" role="doc-biblioref">U.S. Food and Drug Administration, s. f.</a>)</span></td>
 </tr>
 </tbody>
 </table>
@@ -1006,47 +1006,47 @@ Tabla&nbsp;2.6: Registro previo y depósito de datos, código y materiales por �
 <div aria-describedby="tbl-02-registro-previo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 22%">
+<col style="width: 38%">
+<col style="width: 38%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ámbito</th>
-<th>Registro previo</th>
-<th>Depósito de datos, código y materiales</th>
+<th style="text-align: left;">Ámbito</th>
+<th style="text-align: left;">Registro previo</th>
+<th style="text-align: left;">Depósito de datos, código y materiales</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Ensayos clínicos</strong></td>
-<td><strong>CTIS</strong> en la Unión Europea, obligatorio desde el 31/01/2022 y punto único de entrada desde 2023, con el periodo transitorio desde EudraCT cerrado el 31/01/2025 <span class="citation" data-cites="ema2022ctis">(<a href="../bibliografia.html#ref-ema2022ctis" role="doc-biblioref">Agencia Española de Medicamentos y Productos Sanitarios, s. f.</a>)</span>; <strong>ClinicalTrials.gov</strong>; la plataforma <strong>ICTRP</strong> de la OMS como agregador; el <strong>REec</strong> en España</td>
-<td>Repositorios de acceso controlado para datos individuales de participantes (EGA, dbGaP) y plataformas de solicitud como Vivli o YODA</td>
+<td style="text-align: left;"><strong>Ensayos clínicos</strong></td>
+<td style="text-align: left;"><strong>CTIS</strong> en la Unión Europea, obligatorio desde el 31/01/2022 y punto único de entrada desde 2023, con el periodo transitorio desde EudraCT cerrado el 31/01/2025 <span class="citation" data-cites="ema2022ctis">(<a href="../bibliografia.html#ref-ema2022ctis" role="doc-biblioref">Agencia Española de Medicamentos y Productos Sanitarios, s. f.</a>)</span>; <strong>ClinicalTrials.gov</strong>; la plataforma <strong>ICTRP</strong> de la OMS como agregador; el <strong>REec</strong> en España</td>
+<td style="text-align: left;">Repositorios de acceso controlado para datos individuales de participantes (EGA, dbGaP) y plataformas de solicitud como Vivli o YODA</td>
 </tr>
 <tr class="even">
-<td><strong>Revisiones sistemáticas</strong></td>
-<td><strong>PROSPERO</strong>, donde el protocolo se deposita antes de examinar los estudios</td>
-<td>Los datos extraídos y las estrategias de búsqueda, cada vez más como material suplementario citable</td>
+<td style="text-align: left;"><strong>Revisiones sistemáticas</strong></td>
+<td style="text-align: left;"><strong>PROSPERO</strong>, donde el protocolo se deposita antes de examinar los estudios</td>
+<td style="text-align: left;">Los datos extraídos y las estrategias de búsqueda, cada vez más como material suplementario citable</td>
 </tr>
 <tr class="odd">
-<td><strong>Psicología y ciencias sociales</strong></td>
-<td><strong>OSF Registries</strong> y AsPredicted, con la variante del <em>registered report</em>, en que la revista acepta el artículo antes de conocer los resultados</td>
-<td><strong>ICPSR</strong>, <strong>UK Data Service</strong>, la red europea <strong>CESSDA</strong></td>
+<td style="text-align: left;"><strong>Psicología y ciencias sociales</strong></td>
+<td style="text-align: left;"><strong>OSF Registries</strong> y AsPredicted, con la variante del <em>registered report</em>, en que la revista acepta el artículo antes de conocer los resultados</td>
+<td style="text-align: left;"><strong>ICPSR</strong>, <strong>UK Data Service</strong>, la red europea <strong>CESSDA</strong></td>
 </tr>
 <tr class="even">
-<td><strong>Ciencias de la vida</strong></td>
-<td>Protocolos versionados en <strong>protocols.io</strong></td>
-<td>Bases de referencia como <strong>GenBank</strong>/ENA, el <strong>Protein Data Bank</strong> o GEO, con depósito exigido antes de publicar</td>
+<td style="text-align: left;"><strong>Ciencias de la vida</strong></td>
+<td style="text-align: left;">Protocolos versionados en <strong>protocols.io</strong></td>
+<td style="text-align: left;">Bases de referencia como <strong>GenBank</strong>/ENA, el <strong>Protein Data Bank</strong> o GEO, con depósito exigido antes de publicar</td>
 </tr>
 <tr class="odd">
-<td><strong>Inteligencia artificial</strong></td>
-<td>Sin equivalente consolidado del registro previo, que es una carencia notable del campo</td>
-<td><strong>Hugging Face</strong>, hoy el depósito de referencia de modelos de pesos abiertos y conjuntos de datos: más de dos millones de modelos públicos y medio millón de conjuntos de datos en su informe de marzo de 2026 <span class="citation" data-cites="hf2026estado">(<a href="../bibliografia.html#ref-hf2026estado" role="doc-biblioref">Hugging Face, 2026</a>)</span></td>
+<td style="text-align: left;"><strong>Inteligencia artificial</strong></td>
+<td style="text-align: left;">Sin equivalente consolidado del registro previo, que es una carencia notable del campo</td>
+<td style="text-align: left;"><strong>Hugging Face</strong>, hoy el depósito de referencia de modelos de pesos abiertos y conjuntos de datos: más de dos millones de modelos públicos y medio millón de conjuntos de datos en su informe de marzo de 2026 <span class="citation" data-cites="hf2026estado">(<a href="../bibliografia.html#ref-hf2026estado" role="doc-biblioref">Hugging Face, 2026</a>)</span></td>
 </tr>
 <tr class="even">
-<td><strong>Cualquier disciplina</strong></td>
-<td>—</td>
-<td><strong>Zenodo</strong> (CERN y OpenAIRE) y figshare o Dryad como repositorios generalistas con DOI; <strong>Software Heritage</strong> y el enlace Zenodo-GitHub para archivar código con versión citable</td>
+<td style="text-align: left;"><strong>Cualquier disciplina</strong></td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;"><strong>Zenodo</strong> (CERN y OpenAIRE) y figshare o Dryad como repositorios generalistas con DOI; <strong>Software Heritage</strong> y el enlace Zenodo-GitHub para archivar código con versión citable</td>
 </tr>
 </tbody>
 </table>
@@ -1283,37 +1283,37 @@ Tabla&nbsp;2.7: El repertorio reunido: qué toma prestado cada operación del pr
 <div aria-describedby="tbl-02-repertorio-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 31%">
+<col style="width: 43%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Operación</th>
-<th>Qué se toma prestado</th>
-<th>Por qué no basta desmentir</th>
+<th style="text-align: left;">Operación</th>
+<th style="text-align: left;">Qué se toma prestado</th>
+<th style="text-align: left;">Por qué no basta desmentir</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Explotar la incertidumbre residual</strong></td>
-<td>La cautela metodológica, que es una virtud del procedimiento</td>
-<td>Cada afirmación aislada puede ser cierta. Lo falso es el encuadre: presentar el margen como si fuera el centro</td>
+<td style="text-align: left;"><strong>Explotar la incertidumbre residual</strong></td>
+<td style="text-align: left;">La cautela metodológica, que es una virtud del procedimiento</td>
+<td style="text-align: left;">Cada afirmación aislada puede ser cierta. Lo falso es el encuadre: presentar el margen como si fuera el centro</td>
 </tr>
 <tr class="even">
-<td><strong>Tomar prestada la epistemología</strong> — el <em>uso tóxico</em></td>
-<td>El repertorio crítico sobre las condiciones sociales del conocimiento</td>
-<td>El argumento es válido. Lo que se oculta es que «este consenso se formó en instituciones interesadas» no implica «este consenso es falso». Y el esquema es estable: seis pasos, ensayados en el tabaco antes que en el clima</td>
+<td style="text-align: left;"><strong>Tomar prestada la epistemología</strong> — el <em>uso tóxico</em></td>
+<td style="text-align: left;">El repertorio crítico sobre las condiciones sociales del conocimiento</td>
+<td style="text-align: left;">El argumento es válido. Lo que se oculta es que «este consenso se formó en instituciones interesadas» no implica «este consenso es falso». Y el esquema es estable: seis pasos, ensayados en el tabaco antes que en el clima</td>
 </tr>
 <tr class="odd">
-<td><strong>Capturar el incentivo</strong></td>
-<td>Nada, en apariencia: solo se cambia lo que se premia</td>
-<td>No hay ninguna afirmación que desmentir. La distorsión la produce el sistema de evaluación, no un enunciado</td>
+<td style="text-align: left;"><strong>Capturar el incentivo</strong></td>
+<td style="text-align: left;">Nada, en apariencia: solo se cambia lo que se premia</td>
+<td style="text-align: left;">No hay ninguna afirmación que desmentir. La distorsión la produce el sistema de evaluación, no un enunciado</td>
 </tr>
 <tr class="even">
-<td><strong>Apropiarse del vocabulario</strong></td>
-<td>El nombre de un principio, la forma de un ensayo, la mención de una revista</td>
-<td>El desmentido llega años después y por vías ajenas a la ciencia: prensa, regulador, tribunal</td>
+<td style="text-align: left;"><strong>Apropiarse del vocabulario</strong></td>
+<td style="text-align: left;">El nombre de un principio, la forma de un ensayo, la mención de una revista</td>
+<td style="text-align: left;">El desmentido llega años después y por vías ajenas a la ciencia: prensa, regulador, tribunal</td>
 </tr>
 </tbody>
 </table>
